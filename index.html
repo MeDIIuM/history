@@ -3,11 +3,19 @@
 <head>
     <style type="text/css">
         body {
-            background-color: green;
             front-family: sans-serif;
         }
 
+        #all {
+            margin: 0;
+            padding: 0;
+            max-width: 100%;
+            max-height: 100%;
+            background-color: blueviolet;
+        }
+
         #footer {
+            margin-top: 1000px;
             border-width: thin;
             border-style: solid;
             border-color: #007e7e;
@@ -15,6 +23,9 @@
         }
 
         #medium {
+            background-color: darkmagenta;
+            max-height: 100%;
+            max-width: 100%;
 
         }
 
@@ -26,11 +37,13 @@
         }
 
         #menu {
-	        border-color: #5e5e5e;
+            border-color: #5e5e5e;
+            margin-right: 1000px;
             border-style: solid;
             border-width: thick;
             background-color: blue;
 	        width: 300px;
+            height: 500px;
 	        float: left;
         }
 
@@ -38,14 +51,16 @@
             border-color: #f04124;
             border-style: solid;
 	        width: 300px;
-	        margin-left: 300px;
+            margin-left: 310px;
+            max-width: 100%;
+            max-height: 90%;
         }
     </style>
     <title>History</title>
 
 </head>
 <body>
-
+<div id="all">
 <div id="header">
     <img src="img/pictures.png" width="100px" height="100px">
 
@@ -70,7 +85,7 @@
 <div id="footer">
     <p>made by Andrey Petrov</p>
 </div>
-
+</div>
 
 </body>
 </html>

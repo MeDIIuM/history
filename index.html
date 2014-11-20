@@ -2,9 +2,12 @@
 <html class="no-js" lang="en">
 <head>
     <style type="text/css">
-        body {
-            background-image: url("home/b00ris/Загрузки/stretch.jpg");
+        html, body {
+            background-image: url("");
             front-family: sans-serif;
+            max-height: 100%;
+            margin: 0;
+            padding: 0;
         }
 
         #all {
@@ -12,14 +15,16 @@
             padding: 0;
             max-width: 100%;
             max-height: 100%;
+            min-height: 100%;
+            margin-bottom: -50px;
         }
 
         #footer {
-            margin-top: 1000px;
             border-width: thin;
             border-style: solid;
             border-color: #007e7e;
             background-color: #de770f;
+            max-height: 100%;
         }
 
         #medium {
@@ -36,14 +41,14 @@
             background-color: #007ba4;
         }
 
-        #menu {
+        #meny {
             border-color: #5e5e5e;
             margin-right: 1000px;
             border-style: solid;
             border-width: thick;
             background-color: blue;
-	        width: 300px;
-            height: 500px;
+            width: 150px;
+            height: 200px;
 	        float: left;
         }
 
@@ -62,28 +67,44 @@
 <body>
 <div id="all">
 <div id="header">
-    <img src="img/pictures.png" width="100px" height="100px">
+    <img src="img/logo" width="100px" height="100px">
 
     <h1>Project</h1>
 
     <p>historical project for school</p>
 </div>
 <div id="medium">
-	<div id="menu">
-		<ol>
-			<li>sdas</li>
-			<li>sdas</li>
-			<li>sdas</li>
-		</ol>
-	</div>
-	<div id="text">
+    <div id="meny">
+        <div class="icon-bar large-vertical four-up">
+            <p><a class="item">
+                <label>Home</label>
+            </a>
+            </p>
+
+            <p><a class="item">
+                <label>Bookmark</label>
+            </a>
+            </p>
+
+            <p><a class="item">
+                <label>Info</label>
+            </a>
+            </p>
+
+            <p><a class="item">
+                <label>Mail</label>
+            </a>
+            </p>
+        </div>
+    </div>
+    <div id="text">
         <h2>Text</h2>
         <p>This project.....</p>
     </div>
 </div>
+</div>
 <div id="footer">
     <p>made by Andrey Petrov</p>
-</div>
 </div>
 
 </body>
